@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "bytes32",
+						"name": "docHash",
+						"type": "bytes32"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "by",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "ts",
+						"type": "uint256"
+					}
+				],
+				"name": "DocumentRegistered",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "docHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "registerDocument",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "registered",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "docHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "verifyDocument",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DocumentVerifier.sol": "DocumentVerifier"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DocumentVerifier.sol": {
+			"keccak256": "0xe0f8be62265a5b7f3b479833179b1d9bb3ae88ef88f8bf0335e3c5963fd9e908",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://56c38afaa33fff605c12e554907f91944646f2b18aaaafa513704ec94e99011c",
+				"dweb:/ipfs/QmVX2pLn9p9ntbxHb4SFo6vrcB1Gzy8KJXWzfjZ1RbbDSi"
+			]
+		}
+	},
+	"version": 1
+}
